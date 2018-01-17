@@ -5,10 +5,10 @@ require 'pry'
 # quelques lignes qui enregistrent les clés d'APIs
 
 client = Twitter::REST::Client.new do |config|
-  config.consumer_key        = "WG5bImKUh7EKuLmmAgBZLQ8SR"
-  config.consumer_secret     = "3dbDmRk3vDQrdnHRi6fVgtdaLOT2F4KUAI9G4UDYYGEt2FCupr"
-  config.access_token        = "953597265276436480-jqL2lhaTxNgmT2twH823gYDb1HRDZvK"
-  config.access_token_secret = "LKqOtmAWf0Ngwl6Hc9yqFTTwu4f1hUSQyjRf60C69bAIB"
+  config.consumer_key        = ""
+  config.consumer_secret     = ""
+  config.access_token        = ""
+  config.access_token_secret = ""
 end
 p client
 
@@ -36,10 +36,10 @@ end
 #Streaming de tweet
 
 client2 = Twitter::Streaming::Client.new do |config|
-  config.consumer_key        = "WG5bImKUh7EKuLmmAgBZLQ8SR"
-  config.consumer_secret     = "3dbDmRk3vDQrdnHRi6fVgtdaLOT2F4KUAI9G4UDYYGEt2FCupr"
-  config.access_token        = "953597265276436480-jqL2lhaTxNgmT2twH823gYDb1HRDZvK"
-  config.access_token_secret = "LKqOtmAWf0Ngwl6Hc9yqFTTwu4f1hUSQyjRf60C69bAIB"
+  config.consumer_key        = ""
+  config.consumer_secret     = ""
+  config.access_token        = ""
+  config.access_token_secret = ""
 end
 p client
 
